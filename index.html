@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+body {
+	background-image: url(images/backgrounds/homebackground.png);
+	background-size: auto;
+	background-position: top;
+	background-repeat: no-repeat;
+	background-color: black;
+}
+
+.welcomecontainer {
+	display: flex;
+	flex-flow: column wrap;
+}
+
+.welcomeinnercontainer {
+	display: flex;
+	height: 285px;
+	width: 1006px;
+	flex-flow: column wrap;
+	justify-content: center;
+	background-image: url(images/backgrounds/welcomebackground.png);
+}
+
+.dailymessagecontainer {
+	display: flex;
+	flex-flow: column wrap;
+	align-items: center;
+}
+
+.dailymessageinnercontainer {
+	display: flex;
+	flex-flow: row wrap;
+	gap: 10px;
+	width: 100%;
+	height: auto;
+	background-image: url(images/backgrounds/dailymessagebackground.png);
+}
+
+.dailysongcontainer {
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+}
+
+.dailysonginnercontainer {
+	display: flex;
+	flex-flow: row wrap;
+	gap: 10px;
+	width: 100%;
+	height: auto;
+	justify-content: center;
+}
+
+</style>
+<title>Neo-RootPain.com: Godspeed</title>
+<link rel='stylesheet' href='style.css'>
+<link rel='icon' type='image/png' href='images/favicon.png'>
+
+<script async src='js/headerhome.js'></script>
+<script async src='js/menuhome.js'></script>
+</head>
+<body>
+	<video autoplay muted loop plays-inline id='backgroundvideo'>
+			<source src='images/backgrounds/homebackground.webm' type='video/webm'>
+		</video>
+
+		<div class='headercontainer' id='headercontainer'></div>
+
+	<div class='mainbody'>	
+		<div class='mainbodywrapper'>
+		<div class='menucontainer' id='menucontainer'></div>
+		<div class='contentwrapper'>
+
+			<!--WELCOME HEADER-->
+			<div class='welcomecontainer'>
+			<div class='handlebarsmall'></div>
+			<div class='headerimage' style='background-image:url(images/home/welcomeheader.png);'></div>	
+			<div class='handlebarsmall'></div>
+			<div class='welcomeinnercontainer'>
+				<p style='text-align:center;font-weight:bold;'>Welcome to NEO-Rootpain.com! The home of me, June Santos! (A.K.A NeoRootPain)<br>
+				This website is a tribute to all sort of things, my love for the early 2000's internet<br>
+				My spite for the modern internet, a love letter to my friends and all sort of things I love...<br>
+				But most importantly; a labor of love and passion for everything RootPain! (ME!!!)<br>
+				<br>
+				If one day in the future, I make you think about this website again, and make you go:<br>
+				"I want more, and I want to make something as cool as this one day..."<br>
+				Then that means all of this and everything that led up to this was worth it.<br>
+				<br>
+				I hope you enjoy scrolling through my website just as much as I enjoyed making it!<br>
+				Have fun! And remember to sign the guestbook!<br>
+				<br>
+				You either love the <span style="color:lime;">Root</span>, or you hate the <span style="color:red;">Pain</span>, no in-between.</p>
+
+				
+			</div>
+				<div class='handlebarsmall'></div>
+			</div>
+			<!--END OF WELCOME HEADER-->
+
+			<!--DAILY MESSAGE-->
+			<div class='dailymessagecontainer'>
+				<div class='headerimage' style='background-image:url(images/home/dailymessageheader.png);'></div>
+				<div class='handlebarsmall'></div>
+				<div class='dailymessageinnercontainer'>
+					<img src='images/home/dailymessagecharacter.png' style='align-self:flex-end;'>
+					<div class='textbubblecontainer' style='width:646px;'>
+						<div class='textbubbletopcontainer'>
+							<div style='display:flex;justify-content:center;width:40px;border-right:solid black 1px;background-color:#1f1f1f;'><img src='images/faviconlarger.png' style='align-self:center;' width=32 height=32></div>
+							<p style='align-self:center;margin-left:5px;font-family:FixedSys;font-size:26px;'>Why is the website Big Whiskey green?</p>
+						</div>
+						<p class='text' style='font-family:FixedSys;'>
+						In my time of need, won't you understand?<br>
+						That I'm just having fun... That I'm just having fun...<br>
+						With yooooouuu... With yoooooooooouuuuuu...<br>
+						<br>
+						Those are lyrics to a song if you didn't figure it out yet.<br>
+						Wavves - Post Acid, to be more specific.<br>
+						<br>
+						Yes, it's a fucking Scott Pilgrim song, get over it.<br>
+						<br>
+						Also, why the fuck am I green?<br>
+						I'm not very subtle with references. At all. That's why.<br>
+						<br>
+						I love a woman. And she's not even fucking real.<br>
+						Anyways, see you in a year or so.</p>
+					</div>
+				</div>
+				<div class='handlebarsmall'></div>
+			</div>
+			<!--END OF DAILY MESSAGE-->
+
+			<!--DAILY SONG RECOMMENDATION-->
+
+			<div class='dailysongcontainer'>
+			<div class='headerimage' style='background-image:url(images/home/dailysongrecommendationheader.png);'></div>
+				<div class='handlebarsmall'></div>
+				<div class='dailysonginnercontainer'>
+					<div class='textbubblecontainer' style='margin:10px;'>
+						<div class='textbubbletopcontainer'>
+							<div style='display:flex;justify-content:center;width:40px;border-right:solid black 1px;background-color:#1f1f1f;'><img src='images/faviconlarger.png' style='align-self:center;' width=32 height=32></div>
+							<p style='text-align:left;font-family:FixedSys;font-size:26px;white:black;align-self:center;margin-left:5px;margin-right:5px;'>Media Player</p>
+						</div>
+						<div style='display:flex;flex-direction:row;'>
+						<div class='AlbumCover'><img src='images/home/AlbumCover.png' class='AlbumCoverImage'></div>
+						<p class='texttop'>
+						Song Name: Freestyler<br>
+						Artist Name: Bomfunk MC's<br>
+						Album Name: In Stereo<br>
+						Release Year: 1999<br>
+						Genre: Pop<br></p>
+						</div>
+						<div class='handlebarsmall' style='margin-bottom:-1px;'></div>
+					</div>
+				</div>
+				<div class='handlebarsmall'></div>
+			</div>
+
+			</div>
+			
+			<!--END OF DAILY SONG RECOMMENDATION-->
+		</div>
+		</div>
+</body>
+</html>
