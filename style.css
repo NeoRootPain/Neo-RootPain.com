@@ -81,7 +81,6 @@ body, html {
 	display: flex;
 	flex-direction: column;
 	margin: auto;
-	background-color: rgba(0, 0, 0, 0.7);
 	width: 1232px;
 	height: auto;
 }
@@ -91,6 +90,7 @@ body, html {
 	justify-content: top;
 	width: auto;
 	height: auto;
+	background-color: rgba(0, 0, 0, 0.7);
 }
 
 .contentwrapper {
@@ -139,13 +139,6 @@ body, html {
 }
 
 /* TEXT BOXES STUFF */
-
-.headerimage {
-	width: 1005px;
-	height: 70px;
-	margin-top: 5px;
-	margin-bottom: 5px;
-}
 
 .textbubbletopcontainer{
 	display: flex;
@@ -222,6 +215,7 @@ body, html {
 	margin-right: auto;
 	width: 226px;
 	height: auto;
+	gap: 10px;
 }
 
 .navigationcontainer {
