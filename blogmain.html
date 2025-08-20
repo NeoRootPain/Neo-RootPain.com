@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+body {
+	background-image: url(images/backgrounds/blogbackground.png);
+	background-size: auto;
+	background-position: top;
+	background-repeat: no-repeat;
+	background-color: black;
+}
+
+.blogheadercontainer {
+	display: flex;
+	flex-flow: column wrap;
+}
+
+.blogheaderinnercontainer {
+	display: flex;
+	background-image: url(blog/images/blogsectionheader.png);
+	width: 1006px;
+	height: 174px;
+}
+
+</style>
+<meta property="og:title" content="Neo-RootPain.com: Phone Room (A.K.A Blog Section)" />
+<meta property="og:image" content="https://github.com/NeoRootPain/Neo-RootPain.com/blob/main/images/logos/homepagelogo.png?raw=true" />
+<meta property="og:description" content="Why would you want to hear this guy for more than three seconds?" />
+<title>Neo-RootPain.com: Phone Room (A.K.A Blog Section)</title>
+<link rel='stylesheet' href='style.css'>
+<link rel='icon' href='images/favicon.gif'>
+
+<script async src='js/headerblog.js'></script>
+<script async src='js/menublue.js'></script>
+</head>
+<body>
+	<video autoplay muted loop plays-inline id='backgroundvideo'>
+			<source src='images/backgrounds/blogbackground.mp4'>
+		</video>
+
+	<div class='mainbody'>	
+		<div class='headercontainer' id='headercontainer'>
+			<div class='headerinnercontainer' style='outline:solid black 1px;width:1230px;height:250px;background-image:url(images/backgrounds/blogheaderbackground.png);'>
+			<video autoplay muted loop id='headervideo'>
+				<source src='images/backgrounds/blogheaderbackground.mp4'>
+			</video>
+			</div>
+		</div>
+		<div class='mainbodywrapper'>
+		<div class='menucontainer' id='menucontainer' style='background-color:rgba(17, 75, 107, 0.7);'></div>
+		<div class='contentwrapper'>
+
+
+
+
+
+
+			<!--BLOG SECTION INTRODUCTION HEADER-->
+		
+			<div class='blogheadercontainer'>
+			<div class='handlebarsmall'></div>
+			<div class='blogheaderinnercontainer'>
+				<p style='margin-top:55px;margin-left:5px;'><b>
+				"We are 50 Blessings. Together we march into the future. You have reached the Wrong Number."</b><br>
+				<br>
+				What? hearing me ramble on short posts is not enough? Well. I got an entire blog of those if you're not satisfied.<br>
+				From me complaining about stupid shit, to me analyzing and dissecting the fall of internet and "JuneKind" itself<br>
+				You can hear me and my incoherent thoughts for hours on end with these posts!<br>
+				Just click a category that fits you better, and see what awaits you there!<br>
+				</p>
+			</div>
+			<div class='handlebarsmall'></div>
+			</div>
+			
+			<!---END OF BLOG SECTION INTRODUCTION HEADER-->
+
+
+
+
+			<!--SELECTION CONTAINER-->
+
+			<div class='selectioncontainer' style='flex-direction:column;'>
+				<img src='blog/images/pickyourpoison.png'>
+				<div class='handlebarsmall'></div>
+
+				<div class='selectioninnercontainer'>
+				<a href='devlogmain.html'><img src='blog/images/devlogbutton.png' class='bigbutton'></a>
+				</div>
+
+				<script>
+					document.querySelectorAll('.bigbutton').forEach(btn => {
+  btn.addEventListener('mouseover', () => {
+    let sound = new Audio('./sounds/buttonhover.ogg');
+    sound.play();
+  });
+});
+
+document.querySelectorAll('.bigbutton').forEach(btn => {
+  btn.addEventListener('mousedown', () => {
+    let sound = new Audio('./sounds/buttonselect.ogg');
+    sound.play();
+  });
+});
+				</script>
+
+			</div>
+			
+			<!--END OF SELECTION CONTAINER-->
+
+			<div class='handlebarsmall' style='margin-top:auto;'></div>
+
+
+
+
+
+		</div>
+		</div>
+</body>
+</html>
