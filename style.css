@@ -65,6 +65,9 @@ div {
 .headerinnercontainer {
 	display: flex;
 	position: relative;
+	width: 1230px;
+	height: 250px;
+	outline: solid black 1px;
 	justify-content: center;
 	align-items: center;
 	margin: auto;
@@ -159,6 +162,13 @@ body, html {
 
 /* TEXT BOXES STUFF */
 
+.postcontainer {
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+	justify-content: center;
+}
+
 .textbubbletopcontainer{
 	display: flex;
 	flex-flow: row wrap;
@@ -190,7 +200,7 @@ body, html {
 }
 .textsignature {
 	position: relative; right: 10px;
-	font-family: Andes; font-size: 36px; color: white; text-align: right;
+	font-family: Andes; font-size: 32px; color: white; text-align: right;
 	margin-left: auto;
 	margin-top: 10px;
 	margin-bottom: 10px;
@@ -368,28 +378,30 @@ body, html {
 
 .imagecontainer {
 	display: flex;
+	flex-flow: column wrap;
+	align-items: center;
 	text-align: center;
 	margin-top: 10px;
 	margin-bottom: 10px;
 	margin-left: auto;
 	margin-right: auto;
-	outline: solid black 1px;
 	transition: 0.2s;
 }
 
-.imagecontainer:hover {
+.postimage {
+	outline: solid black 1px;
+	width: 100%;
+	height: 100%;
+}
+
+.postimage:hover {
 	outline: solid gray 1px;
 	box-shadow: 0 0 5px white;
 }
 
-.imagecontainer:active {
+.postimage:active {
 	outline: solid white 1px;
 	box-shadow: 0 0 10px white;
-}
-
-.postimage {
-	width: 100%;
-	height: 100%;
 }
 
 .gobackbutton {

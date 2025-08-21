@@ -16,6 +16,31 @@ body {
 	flex-flow: column wrap;
 }
 
+.guestbookcontainer {
+	display: flex;
+	flex-flow: column wrap;
+}
+
+.messagecontainer {
+	display: flex;
+	position: relative;
+	flex-flow: column wrap;
+	align-items: center;
+}
+
+.messageinnercontainer {
+	display: flex;
+	position: relative;
+	flex-flow: row wrap;
+	width: 100%;
+	height: auto;
+}
+
+.character {
+	margin-top: auto;
+	margin-right: auto;
+}
+
 .introflash {
 	display: flex;
 	position: fixed; left: 0; right: 0; top: 0; bottom: 0;
@@ -32,7 +57,7 @@ body {
 
 @keyframes intro {
 	0% { opacity: 1; }
-	100% { opacity: 0; display: none;}
+	100% { opacity: 0; visibility: hidden;}
 }
 
 </style>
@@ -55,7 +80,7 @@ body {
 		<div class='introflash'></div>
 	<div class='mainbody'>	
 		<div class='headercontainer' id='headercontainer'>
-			<div class='headerinnercontainer' style='outline:solid black 1px;width:1230px;height:250px;background-image:url(images/backgrounds/guestbookheaderbackground.png);'>
+			<div class='headerinnercontainer' style='background-image:url(images/backgrounds/guestbookheaderbackground.png);'>
 			<video autoplay muted loop id='headervideo'>
 				<source src='images/backgrounds/guestbookheaderbackground.mp4'>
 			</video>
@@ -76,9 +101,9 @@ body {
 			<!--GUESTBOOK INTRODUCTION HEADER-->
 		
 			<div class='guestbookheadercontainer'>
-			<div class='handlebarsmall'></div>
+			<div class='handlebarsmall' style='background-image:url(images/handlebars/handlebarsmallwhite.png)'></div>
 			<img src='guestbook/images/guestbookheader.png'>
-			<div class='handlebarsmall'></div>
+			<div class='handlebarsmall' style='background-image:url(images/handlebars/handlebarsmallwhite.png)'></div>
 			</div>
 			
 			<!--THATS IT-->
@@ -89,13 +114,147 @@ body {
 
 			<!--THE MEMORIES-->
 
+			<div class='guestbookcontainer'>
+			<img src='guestbook/images/readthememories.png'>
+			<div class='handlebarsmall' style='background-image:url(images/handlebars/handlebarsmallwhite.png)'></div>
 
 
 
+			<!--MY MESSAGE CUZ WHY NOT-->
+			<div class='messagecontainer'>
+			<img src='guestbook/images/junesantosbanner.png'>
+			<div class='handlebarsmall' style='background-image:url(images/handlebars/handlebarsmallwhite.png)'></div>
+			<div class='messageinnercontainer' style='background-image:url(images/backgrounds/dailymessagebackground.png);background-attachment:fixed;'>
+				<img src='guestbook/images/bigwhiskey.png' class='character'>
+				<div class='postcontainer' style='position:absolute;right:10px;top:10px;'>	
+				<div class='textbubblecontainer' style='flex-flow:column nowrap;width:550px;height:500px;overflow-y:scroll;'>
+						<div class='textbubbletopcontainer'>
+							<div style='display:flex;justify-content:center;width:40px;border-right:solid black 1px;background-color:#1f1f1f;'><img src='images/faviconlarger.gif' style='align-self:center;' width=32 height=32></div>
+							<p style='text-align:left;font-family:Andes;font-size:32px;align-self:center;margin-left:5px;margin-right:5px;'><b>the heart always finds it's way.</b></p>
+						</div>
+						<div style='display:flex;flex-direction:row;'>
+						<img src='images/PFPs/PFP01.png' class='PFP'>
+						<p class='texttop'>
+						<b style='font-size:24px;font-family:andes;'>sent by: <span style='color:orange;'>june santos (a.k.a neorootpain)</span><br>
+							august 19, 2025, 06:25:30.</b><br>
+						Hey there. I see you found my website.<br>
+						Or maybe I found you. Doesn't that sound deep?<br>
+						Anyways, I'm glad we crossed paths either way.<br>
+						Coincidence? There is no such thing as a coincidence.<br>
+						</p>
+						</div>
+						<div style='display:flex;flex-direction:column;'>
+						<p class='textbottom' style='margin-top:5px;'>
+						Everything happens with a purpose. Even if takes a while for you to find<br>
+						out what that purpose is, or was.<br>
+						<br>
+						But me being pretentious by trying to sound deep aside.<br>
+						I want to say that finally finishing this website means everything to me.<br>
+						<br>
+						This website, in a lot of ways, is a pure reflection of<br>
+						everything I am, and at one point, was.<br>
+						<br>
+						I started very rough, being incredibly bitter and angry at all times<br>
+						thinking that I was above everything and everyone else, despite barely<br>
+						being above mediocre.<br>
+						<br>
+						But I like to believe I've grown into something better.<br>
+						I'm now refined, I lead life and myself with a better disposition<br>
+						and I've evolved myself and my works into something that I believe<br>
+						everyone, myself included, can be proud of.<br>
+						<br>
+						I'm not a perfect guy, I don't want to pretend to, or be one<br>
+						I'm still very angry at times, I still struggle to say and do<br>
+						the right things, I'm always coming back to try again.<br>
+						<br>
+						It's like I always say; <b>"Trying is everything anyone could ask for."</b><br>
+						<br>
+						I made Neo-RootPain.com: Godspeed as a celebration of everything<br>
+						The good, the bad, the past, the present, the future<br>
+						The new, the old, the JuneSSai.net, and the RootPain.com<br>
+						The Victor, The RootPain, and the June.<br>
+						<br>
+						It's been a rocky road, but if life didn't go the way it went<br>
+						none of this would've been possible, we wouldn't be here today.<br>
+						<br>
+						Every experience is valid, and every experience leads up to something<br>
+						better. Something bigger, and for me, it led me back to this website.<br>
+						Something that was only a childhood dream, that eventually<br>
+						became a reality.<br>
+						<br>
+						I hope that my passion shows through every page you scroll by<br>
+						and I hope that one day in the future, you'll think about this website<br>
+						again and go "Wow, that website was cool.", and maybe even go<br>
+						"I want to make something like that one day."<br>
+						And if I got you to think like that, then all the effort was worth it.<br>
+						<br>
+						Maybe you're already reading this in the future.<br>
+						Maybe you've already made your own, and better website.<br>
+						Maybe you've made it because of me!<br>
+						If that's the case, I'm proud of you. And I'm happy that something<br>
+						I made could've had such an impact on anyone out there.<br>
+						<br>
+						Either you're new, or you've been around for quite a while<br>
+						Thanks for sticking around, and thanks for the support<br>
+						specially if you sticked with me even at my lowest of lows.<br>
+						<br>
+						And in case we met under bad circumstances (when I used to be a<br>
+						complete piece of shit back in the day), I'm sorry. Genuinely.<br>
+						<br>
+						Either way, keep on trying.<br>
+						Because trying is everything is anyone could ask for.<br>
+						<br>
+						It's not easy, and it will never be easy<br>
+						But it's just like I always say.<br>
+						<br>
+						<b>"Nothing worthwhile is ever easy."</b><br>
+						<br>
+						I've been finishing my posts with "The Struggle Continues"<br>
+						for about a year and a half now.<br>
+						<br>
+						So I think it's only fitting I end this guestbook message with...<br>
+						<span style='color:orange'><i><b>The Struggle Is Over.</b></i></span><br>
+						<br>
+						'Till we meet again!<br>
+						Don't forget to sign the Guestbook!<br>
+						<br>
+						Seriously. Sign it. This took me a while to make.<br>
+						It's the coolest section in the entire website and I'd hate to see it unused.<br>
+						Plus, I like getting messages.</p>
+							<div class='imagecontainer' style='width:95%;'>
+							<a href='https://www.newgrounds.com/portal/view/986726' target='_blank'>
+							<img src='guestbook/images/charlottemybeloved.gif' class='postimage'></a>
+							<p><b>Charlotte my beloved. <3 <3 <3</b></p>
+							</div>
+						</p>
+						<p class='textsignature'>
+						<u>rootpain lives on!</u><br>
+						june santos (a.k.a neorootpain)</p>
 
+						</p>
+						</div>
+						<div class='handlebarsmall' style='margin-bottom:-1px;'></div>
+				</div>
+			</div>
+			</div>
+			<script>
+					document.querySelectorAll('.postimage').forEach(btn => {
+  btn.addEventListener('mouseover', () => {
+    let sound = new Audio('./sounds/okay.ogg');
+    sound.play();
+  });
+});
 
+document.querySelectorAll('.postimage').forEach(btn => {
+  btn.addEventListener('mousedown', () => {
+    let sound = new Audio('./sounds/charlottelaugh.ogg');
+    sound.play();
+  });
+});
+			</script>
+			</div>
 
-			<!--I forgot to write them GOD DAMN IT-->
+			<!--MY MESSAGE ENDS HERE FUCK OKAY-->
 
 
 			<!--I'm very happy we crossed paths. I really am. This was only possible because of you. So thank you.-->
@@ -103,7 +262,7 @@ body {
 			
 			<!--END OF SELECTION CONTAINER-->
 
-			<div class='handlebarsmall' style='margin-top:auto;'></div>
+			<div class='handlebarsmall' style='margin-top:auto;background-image:url(images/handlebars/handlebarsmallwhite.png)'></div>
 
 
 
