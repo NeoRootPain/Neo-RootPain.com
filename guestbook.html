@@ -116,6 +116,7 @@ body {
 
 			<div class='guestbookcontainer'>
 			<img src='guestbook/images/readthememories.png'>
+			<img src='guestbook/images/scrolltipheader.png' style='border-top:solid white 1px;'>
 			<div class='handlebarsmall' style='background-image:url(images/handlebars/handlebarsmallwhite.png)'></div>
 
 
@@ -165,7 +166,7 @@ body {
 						<br>
 						I'm not a perfect guy, I don't want to pretend to, or be one<br>
 						I'm still very angry at times, I still struggle to say and do<br>
-						the right things, I'm always coming back to try again.<br>
+						the right things, but I'm always coming back to try again.<br>
 						<br>
 						It's like I always say; <b>"Trying is everything anyone could ask for."</b><br>
 						<br>
@@ -180,7 +181,7 @@ body {
 						Every experience is valid, and every experience leads up to something<br>
 						better. Something bigger, and for me, it led me back to this website.<br>
 						Something that was only a childhood dream, that eventually<br>
-						became a reality.<br>
+						became a reality, and once again, my comfort.<br>
 						<br>
 						I hope that my passion shows through every page you scroll by<br>
 						and I hope that one day in the future, you'll think about this website<br>
@@ -193,6 +194,8 @@ body {
 						Maybe you've made it because of me!<br>
 						If that's the case, I'm proud of you. And I'm happy that something<br>
 						I made could've had such an impact on anyone out there.<br>
+						<br>
+						I hope the future is treating you well, future reader!<br>
 						<br>
 						Either you're new, or you've been around for quite a while<br>
 						Thanks for sticking around, and thanks for the support<br>
@@ -221,10 +224,10 @@ body {
 						Seriously. Sign it. This took me a while to make.<br>
 						It's the coolest section in the entire website and I'd hate to see it unused.<br>
 						Plus, I like getting messages.</p>
-							<div class='imagecontainer' style='width:95%;'>
+							<div class='guestbookimagecontainer' style='margin-left:10px;'>
 							<a href='https://www.newgrounds.com/portal/view/986726' target='_blank'>
-							<img src='guestbook/images/charlottemybeloved.gif' class='postimage'></a>
-							<p><b>Charlotte my beloved. <3 <3 <3</b></p>
+							<img src='guestbook/images/charlottemybeloved.gif' class='guestbookimage'></a>
+							<p style='margin-top:5px'><b>Charlotte my beloved. <3 <3 <3</b></p>
 							</div>
 						</p>
 						<p class='textsignature'>
@@ -238,14 +241,14 @@ body {
 			</div>
 			</div>
 			<script>
-					document.querySelectorAll('.postimage').forEach(btn => {
+					document.querySelectorAll('.guestbookimage').forEach(btn => {
   btn.addEventListener('mouseover', () => {
     let sound = new Audio('./sounds/okay.ogg');
     sound.play();
   });
 });
 
-document.querySelectorAll('.postimage').forEach(btn => {
+document.querySelectorAll('.guestbookimage').forEach(btn => {
   btn.addEventListener('mousedown', () => {
     let sound = new Audio('./sounds/charlottelaugh.ogg');
     sound.play();
