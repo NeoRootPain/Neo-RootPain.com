@@ -27,17 +27,18 @@ p {
 	margin: 0;
 }
 
-a p, a:link, a:visited {
-	 color: lime;
+a, a:link, a:visited {
+	 color: lime !important;
 	 text-decoration: none;
 }
 
-a:hover p, a:hover span{
-	 color: orange;
+a:hover, a:hover {
+	 color: orange !important;
+	 text-decoration: none;
 }
 
-a:active p, a:active span {
-	 color: orange;
+a:active, a:active {
+	 color: orange !important;
 	 text-decoration: underline;
 }
 
@@ -161,7 +162,7 @@ body, html {
 .textbubbletopcontainer{
 	display: flex;
 	flex-flow: row wrap;
-	background-color: white;
+	background-color: gray;
 	width: auto;
 	height: 40px;
 	outline: solid black 1px;
@@ -207,17 +208,21 @@ body, html {
 
 .AlbumCover {
 	display: flex;
-	width: 150px;
-	height: 150px;
-	margin-top: 10px;
-	margin-left: 10px;
-	margin-bottom: 10px;
+	width: 125px;
+	height: 125px;
+	margin-right: 5px;
 	outline: solid black 1px;
+	transition: 0.2s;
 }
 
-.AlbumCoverImage {
-	width: 150px;
-	height: 150px;
+.AlbumCover:hover {
+	outline: solid gray 1px;
+	box-shadow: 0 0 5px white;
+}
+
+.AlbumCover:active {
+	outline: solid white 1px;
+	box-shadow: 0 0 10px white;
 }
 
 /* MENUS STUFF */
@@ -334,7 +339,7 @@ body, html {
 .selectioninnercontainer {
 	display: flex;
 	flex-flow: row wrap;
-	align-items: left;
+	align-items: center;
 	justify-content: center;
 	gap: 20px;
 	width: 1006px;

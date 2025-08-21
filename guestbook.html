@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+body {
+	background-image: url(images/backgrounds/guestbookbackground.png);
+	background-size: auto;
+	background-position: top;
+	background-repeat: no-repeat;
+	background-color: black;
+}
+
+.guestbookheadercontainer {
+	display: flex;
+	flex-flow: column wrap;
+}
+
+.introflash {
+	display: flex;
+	position: fixed; left: 0; right: 0; top: 0; bottom: 0;
+	width: 100vw;
+	height: 100vh;
+	background-color: white;
+	z-index: 100;
+	animation-name: intro;
+	animation-duration: 4s;
+	animation-delay: 1s;
+	animation-fill-mode: forwards;
+	pointer-events: none;
+}
+
+@keyframes intro {
+	0% { opacity: 1; }
+	100% { opacity: 0; display: none;}
+}
+
+</style>
+<meta property="og:title" content="Neo-RootPain.com: Guestbook" />
+<meta property="og:image" content="https://github.com/NeoRootPain/Neo-RootPain.com/blob/main/images/logos/homepagelogo.png?raw=true" />
+<meta property="og:description" content="I'm very happy we crossed paths. I really am." />
+<title>Neo-RootPain.com: Guestbook</title>
+<link rel='stylesheet' href='style.css'>
+<link rel='icon' href='images/favicon.gif'>
+
+<script async src='js/headerguestbook.js'></script>
+<script async src='js/menublue.js'></script>
+</head>
+<body>
+	<video autoplay muted loop plays-inline id='backgroundvideo' style='position:fixed;'>
+			<source src='images/backgrounds/guestbookbackground.mp4'>
+		</video>
+
+
+		<div class='introflash'></div>
+	<div class='mainbody'>	
+		<div class='headercontainer' id='headercontainer'>
+			<div class='headerinnercontainer' style='outline:solid black 1px;width:1230px;height:250px;background-image:url(images/backgrounds/guestbookheaderbackground.png);'>
+			<video autoplay muted loop id='headervideo'>
+				<source src='images/backgrounds/guestbookheaderbackground.mp4'>
+			</video>
+			</div>
+		</div>
+
+		<div class='mainbodywrapper'>
+		<div class='menucontainer' id='menucontainer' style='background-color:rgba(17, 75, 107, 0.7);'></div>
+		<div class='contentwrapper'>
+			
+
+			<audio hidden autoplay loop>
+				<source src="guestbook/guestbookbgmusic.ogg" type="audio/ogg"></audio>
+
+
+
+
+			<!--GUESTBOOK INTRODUCTION HEADER-->
+		
+			<div class='guestbookheadercontainer'>
+			<div class='handlebarsmall'></div>
+			<img src='guestbook/images/guestbookheader.png'>
+			<div class='handlebarsmall'></div>
+			</div>
+			
+			<!--THATS IT-->
+
+
+
+
+
+			<!--THE MEMORIES-->
+
+
+
+
+
+
+
+			<!--I forgot to write them GOD DAMN IT-->
+
+
+			<!--I'm very happy we crossed paths. I really am. This was only possible because of you. So thank you.-->
+
+			
+			<!--END OF SELECTION CONTAINER-->
+
+			<div class='handlebarsmall' style='margin-top:auto;'></div>
+
+
+
+
+
+		</div>
+		</div>
+</body>
+</html>
