@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+body {
+	background-image: url(images/backgrounds/fanartbackground.png);
+	background-size: auto;
+	background-position: top;
+	background-repeat: no-repeat;
+	background-color: black;
+}
+
+.fanartheadercontainer {
+	display: flex;
+	position: relative;
+	flex-flow: column wrap;
+}
+
+.artistcontainer {
+	display: flex;
+	position: relative;
+	flex-flow: column wrap;
+}
+
+.miami {
+	display: flex;
+	position: absolute; left: 128px; top: 12px;
+	background-color: white;
+	height: 3px;
+	width: 3px;
+	transition: 0.2s;
+	border-radius: 50%;
+}
+
+.miami:hover {
+	background-color: #0056ff;
+}
+
+</style>
+<meta property="og:title" content="Neo-RootPain.com: Big Whiskey's Garden (A.K.A Fanart Section)" />
+<meta property="og:image" content="https://github.com/NeoRootPain/Neo-RootPain.com/blob/main/images/logos/homepagelogo.png?raw=true" />
+<meta property="og:description" content="Your Drawings look like Heaven to me!" />
+<title>Neo-RootPain.com: Big Whiskey's Garden (A.K.A Fanart Section)</title>
+<link rel='stylesheet' href='style.css'>
+<link rel='icon' href='images/favicon.gif'>
+
+<script async src='js/headerfanart.js'></script>
+<script async src='js/menupink.js'></script>
+</head>
+<body>
+
+	<div class='mainbody'>	
+		<div class='headercontainer' id='headercontainer'>
+			<div class='headerinnercontainer' style='outline:solid black 1px;width:1230px;height:250px;background-image:url(images/backgrounds/fanartheaderbackground.png);'>
+			</div>
+		</div>
+		<div class='mainbodywrapper'>
+		<div class='menucontainer' id='menucontainer' style='background-color:rgba(173, 97, 158, 0.7);'></div>
+		<div class='contentwrapper'>
+
+
+
+
+
+
+			<!--BLOG SECTION INTRODUCTION HEADER-->
+		
+			<div class='fanartheadercontainer'>
+			<div class='handlebarsmall' style='background-image:url(images/handlebars/handlebarsmallgreen.png);'></div>
+			<img src='fanart/images/fanartsectionheader.png'>
+			<div class='handlebarsmall' style='background-image:url(images/handlebars/handlebarsmallgreen.png);'></div>
+			</div>
+			
+			<!---END OF BLOG SECTION INTRODUCTION HEADER-->
+
+
+
+
+			<!--SELECTION CONTAINER-->
+
+			<div class='selectioncontainer' style='flex-direction:column;'>
+				<div style='display:flex;flex-direction:column;'>
+				<img src='fanart/images/chooseagarden.png'>
+				<div class='handlebarsmall' style='background-image:url(images/handlebars/handlebarsmallgreen.png);'></div>
+				</div>
+
+				<div class='artistcontainer'>
+				
+					<a href='secrets/pages/MyDearlyBeloved.html'><div class='miami'></div></a>
+				<img src='fanart/images/icantseehelpheader.gif'>
+				<div class='handlebarsmall' style='background-image:url(images/handlebars/handlebarsmallgreen.png);'></div>
+				</div>
+
+				<div class='handlebarsmall' style='margin-top:auto;background-image:url(images/handlebars/handlebarsmallgreen.png);'></div>
+				</div>
+
+				<script>
+					document.querySelectorAll('.bigbutton').forEach(btn => {
+  btn.addEventListener('mouseover', () => {
+    let sound = new Audio('./sounds/buttonhover.ogg');
+    sound.play();
+  });
+});
+
+document.querySelectorAll('.bigbutton').forEach(btn => {
+  btn.addEventListener('mousedown', () => {
+    let sound = new Audio('./sounds/buttonselect.ogg');
+    sound.play();
+  });
+});
+				</script>
+			
+			<!--END OF SELECTION CONTAINER-->
+
+
+
+
+
+
+		</div>
+		</div>
+</body>
+</html>
