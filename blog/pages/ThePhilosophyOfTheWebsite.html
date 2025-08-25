@@ -11,13 +11,6 @@ body {
 	background-color: black;
 }
 
-.postcontainer {
-	display: flex;
-	flex-flow: row wrap;
-	align-items: center;
-	justify-content: center;
-}
-
 </style>
 <meta property="og:title" content="Neo-RootPain.com: The Philosophy Of The Website" />
 <meta property="og:image" content="https://github.com/NeoRootPain/Neo-RootPain.com/blob/main/images/logos/homepagelogo.png?raw=true" />
@@ -46,14 +39,18 @@ body {
 		<div class='menucontainer' id='menucontainer'></div>
 		<div class='contentwrapper'>
 
-			<div class='postcontainer'>
+
+				<div class='titleheadercontainer'>
 				<div class='handlebarsmall'></div>
 				<img src='../../blog/images/thephilosophyofthewebsiteheader.png'>
 				<div class='handlebarsmall'></div>
-					<div class='textbubblecontainer' style='margin:10px;'>
+				</div>
+
+			<div class='postcontainer'>
+					<div class='textbubblecontainer'>
 						<div class='textbubbletopcontainer'>
-							<div style='display:flex;justify-content:center;width:40px;border-right:solid black 1px;background-color:#1f1f1f;'><img src='../../images/faviconlarger.gif' style='align-self:center;' width=32 height=32></div>
-							<p style='text-align:left;font-family:Andes;font-size:32px;align-self:center;margin-left:5px;margin-right:5px;'><b>it's been a long time coming.</b></p>
+							<div class='faviconcontainer'><img src='../../images/faviconlarger.gif' style='align-self:center;' width=32 height=32></div>
+							<p class='titletext'><b>it's been a long time coming.</b></p>
 						</div>
 						<div style='display:flex;flex-direction:row;'>
 						<img src='../../images/PFPs/PFP01.png' class='PFP'>
@@ -70,9 +67,12 @@ body {
 						<p class='textbottom' style='margin-top:5px;'>
 						I know it took me a good while, but I believe the effort was worth it.<br>
 						There is a lot to talk about, and a lot to go over. So where do I even begin?<br>
-						I guess why I even decided to remake the website (again) is a good place to start.<br>
-						<br>
-						At the end of 2023, I said that I wanted to return to making frequent updates to the website again since<br>
+						I guess why I even decided to remake the website (again) is a good place to start.</p>
+							<div class='imagecontainer' style='width:95%;'>
+							<a href='../images/postimages/thescrappedcityera.png' target='_blank'>
+							<img src='../images/postimages/thescrappedcityera.png' class='postimage'></a>
+							</div>
+						<p class='textbottom'>At the end of 2023, I said that I wanted to return to making frequent updates to the website again since<br>
 						I really slacked off with it when in comparison to the original website, where I used to update it frequently<br>
 						and seemed very enthusiastic to work on it overall (this was also in part due to me being younger and a little<br>
 						less jaded, I didn't really had a job back in the day, and the website was far simpler, and easier to work with)<br>
@@ -105,10 +105,14 @@ body {
 						But after one of my friends kept calling my cellphone and chasing me around, I came back. Resentfully so.<br>
 						<br>
 						But what really destroyed my motivation and made me give up on "the next big thing" for RootPain.com was<br>
-						this one friend, the person that I used to consider "my partner" in a lot of ways, left after me and him<br>
-						had a falling out over the most retarded reason imaginable, and I don't use that word lightly.<br>
+						this one friend, the person that I used to consider "my partner" in a lot of ways, left, after me and him<br>
+						had a falling out over the most retarded reason imaginable.<br>
 						<br>
-						After he left, I felt genuinely lost. Specially because at one point, we used to do everything together<br>
+						"Oh June, that sounds a bit too harsh, don't you think?" No. I don't. In fact, I think I'm being way too<br>
+						generous when I say it's just retarded, it's beyond that, to the point I'm still thinking of a heavier<br>
+						word to describe how ridiculous and idiotic that whole discussion was.<br>
+						<br>
+						Anyways. After he left, I felt genuinely lost. Specially because at one point, we used to do everything together<br>
 						So all of my works, my website included, had his DNA on every inch of my person and my works. So every time<br>
 						I looked into my website, or anywhere for that matter, I saw him, and any motivation to go back and try again<br>
 						would fade out in an instant, and once again, I was at step zero.<br>
@@ -121,6 +125,9 @@ body {
 						But if I couldn't bring myself to do any of that, I couldn't bring myself to work on RootPain.com again.<br>
 						And even though RootPain.com wasn't getting any new updates, it never left my mind, not even for a day.<br>
 						But for the time, there was nothing I could do.<br>
+						<br>
+						At one point, I didn't even feel sad or angry, I just felt tired and empty.<br>
+						And for a while, that was it.<br>
 						<br>
 						Skip to 2025.<br>
 						I decided to read my email again, for some reason. And unexpectedly, someone left a guestbook message<br>
@@ -139,10 +146,10 @@ body {
 						So seeing that I pretty much accomplished that, and they had hopes that I would make my return one day<br>
 						resparked something in me again, even if very briefly, and very faintly. So I decided to start fiddling with<br>
 						HTML and CSS again, and I started by remaking the home page of the website.</p>
-						<div class='imagecontainer' style='width:95%;'>
+							<div class='imagecontainer' style='width:95%;'>
 							<a href='../images/postimages/firstprototype.png' target='_blank'>
-								<img src='../images/postimages/firstprototype.png' class='postimage'></a>
-						</div>
+							<img src='../images/postimages/firstprototype.png' class='postimage'></a>
+							</div>
 						<p class='textbottom'>
 						Although I did improve upon it a lot, I abandoned it after a while due to me once again having difficulties<br>
 						when it came to achieving certain results, so I decided to leave this idea for later.<br>
@@ -158,9 +165,13 @@ body {
 						<br>
 						But what really drove me to revisit my website and my art hobby as a whole (besides my friends making cool shit<br>
 						that inspired me), was finding out this two part animation called "Charlotte's Apprenticheship." from this guy on<br>
-						Newgrounds called "ICantSeeHelp".<br>
+						Newgrounds called "ICantSeeHelp".</p>
+							<div class='imagecontainer' style='width:95%;'>
+							<a href='../images/postimages/whenifirstmether.png' target='_blank'>
+							<img src='../images/postimages/whenifirstmether.png' class='postimage'></a>
+							</div>
 						<br>
-						It was a very weird and experimental animation about this girl trying to achieve perfection and suffering because of it<br>
+						<p class='textbottom'>It was a very weird and experimental animation about this girl trying to achieve perfection and suffering because of it<br>
 						and for some reason, it really resonated with me. Mostly because I was in a similar shell during that time, where I felt<br>
 						pretty isolated and disconnected from everyone and everything, and despite how much I wanted to go back to drawing and<br>
 						enjoying making things, I could never really scratch that itch, no matter how much I forced myself. There were<br>
@@ -170,14 +181,25 @@ body {
 						in general is beautiful in genuinely every sense of the word.<br>
 						<br>
 						Me describing the whole thing in here would make a huge disservice to it, so I'll instead tell you to go watch it yourself<br>
-						by clicking this hyperlink. But all you need to know is, it definitely sparked something in me again.<br>
+						by <a href='https://www.newgrounds.com/portal/view/986726' target='_blank'>clicking this hyperlink</a>. But all you need to know is, it definitely sparked something in me again.<br>
 						<br>
 						It's probably the first time I've "fangirled" over anything in years, really.<br>
+						And even after retyping this countless times, I still feel like a bit of a loser for losing my shit so much over<br>
+						these animations, and specially over this fucking character, but I can't help it.<br>
 						<br>
-						And eventually I started making fanart of Charlotte Gray, and it was one of the first times after so long where I genuinely<br>
-						took my time inserting little details and taking so much care when making something, and seeing that people noticed these<br>
-						little details, and saw how much it meant to me, motivated me to "push it a little further", even if for just a little longer.<br>
-						One of them even got frontpaged, and it was also the main feature for the Takeover Tuesday. This blew my mind.<br>
+						I love a woman, and she's not even real.<br>
+						<br>
+						Anyways, I eventually I started making fanart of Charlotte Gray, and it was one of the first times after<br>
+						so long where I genuinely took my time inserting little details and taking so much care when making something<br>
+						and seeing that people noticed these little details, and saw how much it meant to me, motivated me to<br>
+						"push it a little further", even if for just a little longer. One of them even got frontpaged, and it was also<br>
+						the main feature for the Takeover Tuesday. This blew my mind.<br>
+						<br>
+						ICantSeeHelp even started following me at one point.<br>
+						You know how excited I was? I did that whole a little cheer and jump when I found about it.<br>
+						I was at my job, during my shift.<br>
+						<br>
+						Again, the first time I've fangirled over anything.<br>
 						<br>
 						ICantSeeHelp even made some Big Whiskey fanart at one point (which honestly made me go completely red<br>
 						and I had a shit eating grin for the rest of the week pretty much.), and all of these things happening in succession<br>
@@ -193,10 +215,10 @@ body {
 						But when I scrolled at the bottom, I saw it there.</p>
 							<div class='imagecontainer' style='width:95%;'>
 							<a href='../images/postimages/thatsmerightthere.png' target='_blank'>
-								<img src='../images/postimages/thatsmerightthere.png' class='postimage'></a>
-						</div>
+							<img src='../images/postimages/thatsmerightthere.png' class='postimage'></a>
+							</div>
 						<p class='textbottom'>
-						When I first saw it, I barely woke up, it was like 6AM in the morning, but when I saw the RootPain.com banner/button at the<br>
+						When I first saw it, I barely woke up, it was like six in the morning, but when I saw the RootPain.com banner/button at the<br>
 						bottom, I genuinely jumped out of my bed, fully awake. I was so happy you couldn't believe it.<br>
 						<br>
 						At this point, I never really thought a majority of people wouldn't even bother to scroll through RootPain.com anymore<br>
@@ -302,8 +324,8 @@ body {
 						</p>
 							<div class='imagecontainer' style='width:95%;'>
 							<a href='../images/postimages/thephilosophy.png' target='_blank'>
-								<img src='../images/postimages/thephilosophy.png' class='postimage'></a>
-						</div>
+							<img src='../images/postimages/thephilosophy.png' class='postimage'></a>
+							</div>
 						<p class='textbottom'><span style='display:flex;text-align:center;justify-content:center;'><i><b>"In general, this is the website's philosophy; passion<br>
 						<br>
 						Passion for the things I like<br>
@@ -356,8 +378,6 @@ body {
 						<br>
 						Going through that website again, I knew what I wanted to make for this version of RootPain.com<br>
 						<br>
-						I wanted it to be <span style='color:orange;'><b><i>The Sum Of Everything</i></b></span>.<br>
-						<br>
 						I wanted it to embrace both JuneSSai.net, and RootPain.com.<br>
 						I wanted it to embrace both the past, and the future.<br>
 						I wanted it to embrace both the good, and the bad.<br>
@@ -392,7 +412,7 @@ body {
 						The people that showed me how to be awful, so I could have a good reference of everything I want to avoid becoming.<br>
 						The ones that are here for the ride, and the ones that were just an experience<br>
 						The ones that endured and tolerated June S. Sai, so we could get to June Santos.<br>
-						The ones that were just there for experience, and the ones that stayed for the ride.<br>
+						The ones that were just there for the experience, and the ones that stayed for the ride.<br>
 						<br>
 						Either you're new, or you've been keeping up with me and my works ever since I started to bloom...</p>
 						<div style='display:flex;align-self:center;text-align:center;font-size:58px;margin-bottom:10px;color:white;font-family:TerminusTTF;'>Thank you for being badass!</div><br>
@@ -405,11 +425,10 @@ body {
 						Until we meet again. Godspeed.</i></b></span>
 						</p>
 
-						<img src='../images/postimages/firstsitelogo.png' class='postimage' style='width:450px;height:150px;margin-left:auto;margin-right:auto;margin-top:10px;margin-bottom:10px;'>
-						<img src='../images/postimages/rootpainlogo.png' class='postimage' style='width:306px;height:78px;margin-left:auto;margin-right:auto;margin-top:10px;margin-bottom:10px;'>
-						<img src='../images/postimages/neorootpainlogo.png' class='postimage' style='width:448px;height:117px;margin-left:auto;margin-right:auto;margin-top:10px;margin-bottom:10px;'>
-
-
+						<a href='https://www.youtube.com/watch?v=CdqoNKCCt7A' target='_blank'>
+						<img src='../images/postimages/firstsitelogo.png' style='width:450px;height:150px;margin-left:auto;margin-right:auto;margin-top:10px;margin-bottom:10px;'></a>
+						<img src='../images/postimages/rootpainlogo.png' style='width:306px;height:78px;margin-left:auto;margin-right:auto;margin-top:10px;margin-bottom:10px;'>
+						<img src='../images/postimages/neorootpainlogo.png' style='width:448px;height:117px;margin-left:auto;margin-right:auto;margin-top:10px;margin-bottom:10px;'>
 
 						<p class='textsignature'>
 						<u>blooming anew</u><br>
@@ -419,9 +438,7 @@ body {
 						</div>
 						<div class='handlebarsmall' style='margin-bottom:-1px;'></div>
 				</div>
-
 						<div class='gobackbutton'><a href='../../devlogmain.html'><img src='../../images/menus/gobackbutton.png'></a></div>
-
 			<script>
 					document.querySelectorAll('.gobackbutton').forEach(btn => {
   btn.addEventListener('mouseover', () => {
@@ -436,14 +453,15 @@ document.querySelectorAll('.gobackbutton').forEach(btn => {
     sound.play();
   });
 });
-				</script>
+			</script>
 
-			<div class='handlebarsmall' style='margin-top:auto;'></div>
+
+
+			</div>
+			<div class='handlebarsmall'></div>
 			</div>
 
-			</div>
-
-			<!--I know you're reading this, ICantSeeHelp.-->
+			<!--I know you're reading this, Tom.-->
 
 
 		</div>
