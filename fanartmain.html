@@ -11,12 +11,6 @@ body {
 	background-color: black;
 }
 
-.fanartheadercontainer {
-	display: flex;
-	position: relative;
-	flex-flow: column wrap;
-}
-
 .artistcontainer {
 	display: flex;
 	position: relative;
@@ -48,7 +42,7 @@ body {
 .miami {
 	display: flex;
 	position: absolute; left: 128px; top: 12px;
-	background-color: white;
+	background-color: #55401e;
 	height: 3px;
 	width: 3px;
 	transition: 0.2s;
@@ -86,15 +80,14 @@ body {
 
 
 
-			<!--BLOG SECTION INTRODUCTION HEADER-->
+			<!--INTRODUCTION HEADER-->
 		
-			<div class='fanartheadercontainer'>
+			<div class='titleheadercontainer'>
 			<div class='handlebarsmall' style='background-image:url(images/handlebars/handlebarsmallgreen.png);'></div>
 			<img src='fanart/images/fanartsectionheader.png'>
 			<div class='handlebarsmall' style='background-image:url(images/handlebars/handlebarsmallgreen.png);'></div>
 			</div>
 			
-			<!---END OF BLOG SECTION INTRODUCTION HEADER-->
 
 
 
@@ -122,6 +115,8 @@ body {
 
 				<div class='handlebarsmall' style='margin-top:auto;background-image:url(images/handlebars/handlebarsmallgreen.png);'></div>
 				</div>
+			
+			<!--END OF SELECTION CONTAINER-->
 
 				<script>
 					document.querySelectorAll('.bigbutton').forEach(btn => {
@@ -138,12 +133,22 @@ document.querySelectorAll('.bigbutton').forEach(btn => {
   });
 });
 				</script>
-			
-			<!--END OF SELECTION CONTAINER-->
 
+				<script>
+					document.querySelectorAll('.miami').forEach(btn => {
+  btn.addEventListener('mouseover', () => {
+    let sound = new Audio('./sounds/nmh2pianoin.ogg');
+    sound.play();
+  });
+});
 
-
-
+document.querySelectorAll('.miami').forEach(btn => {
+  btn.addEventListener('mousedown', () => {
+    let sound = new Audio('./sounds/nmh2pianoout.ogg');
+    sound.play();
+  });
+});
+				</script>
 
 
 		</div>
