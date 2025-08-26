@@ -4,7 +4,7 @@ let MenuContent = `
 
 <img src='./images/menus/navigationbargreen.png' width='226px' height='33px'>
 
-<a href='./index.html'>
+<a href='https://rootpain.com/index.html'>
 <div class='buttoncontainer'>
 <img src='./images/menus/homebuttonfaded.png' class='buttonfade'>
 <img src='./images/menus/homebutton.png' class='button'>
@@ -12,7 +12,7 @@ let MenuContent = `
 </div>
 </a>
 
-<a href='./blogmain.html'>
+<a href='https://rootpain.com/blogmain.html'>
 <div class='buttoncontainer'>
 <img src='./images/menus/blogbuttonfaded.png' class='buttonfade'>
 <img src='./images/menus/blogbutton.png' class='button'>
@@ -20,7 +20,15 @@ let MenuContent = `
 </div>
 </a>
 
-<a href='./guestbook.html'>
+<a href='https://rootpain.com/fanartmain.html'>
+<div class='buttoncontainer'>
+<img src='./images/menus/fanartbuttonfaded.png' class='buttonfade'>
+<img src='./images/menus/fanartbutton.png' class='button'>
+<img src='./images/menus/fanartbuttonslide.png' class='buttonslide'>
+</div>
+</a>
+
+<a href='https://rootpain.com/guestbook.html'>
 <div class='buttoncontainer'>
 <img src='./images/menus/guestbookbuttonfaded.png' class='buttonfade'>
 <img src='./images/menus/guestbookbutton.png' class='button'>

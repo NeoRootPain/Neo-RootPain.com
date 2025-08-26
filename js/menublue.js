@@ -20,6 +20,14 @@ let MenuContent = `
 </div>
 </a>
 
+<a href='./fanartmain.html'>
+<div class='buttoncontainer'>
+<img src='./images/menus/fanartbuttonfaded.png' class='buttonfade'>
+<img src='./images/menus/fanartbutton.png' class='button'>
+<img src='./images/menus/fanartbuttonslide.png' class='buttonslide'>
+</div>
+</a>
+
 <a href='./guestbook.html'>
 <div class='buttoncontainer'>
 <img src='./images/menus/guestbookbuttonfaded.png' class='buttonfade'>

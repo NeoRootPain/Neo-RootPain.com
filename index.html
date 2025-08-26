@@ -73,6 +73,19 @@ body {
 	align-items: center;
 }
 
+.speechbubbletitletext {
+	margin-top: 5px; margin-left: 5px; margin-right: 5px;
+	font-size: 32px;
+	font-family: Andes;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+.songcontainer {
+	display: flex;
+	flex-flow: row wrap;
+	width: 100%;
+}
 </style>
 <meta property="og:title" content="Neo-RootPain.com: Godspeed" />
 <meta property="og:image" content="https://github.com/NeoRootPain/Neo-RootPain.com/blob/main/images/logos/homepagelogo.png?raw=true" />
@@ -150,9 +163,10 @@ body {
 						<!--Daily Message-->
 						<div class='speechbubblecontainer'>
 						<div class='speechbubble'>
-							<p style='color:white;margin-top:5px;margin-left:5px;margin-right:5px;font-size:32px;font-family:Andes;'>
-							<img src='images/faviconlarger.png' style='position:absolute;left:105px;top:5px;'>
-							<u><b>today's daily message</b></u></p>
+
+							<p class='speechbubbletitletext'>
+							<img src='images/faviconlarger.png' style='position:absolute;left:105px;top:5px;'>today's daily message</p>
+
 							<img src='images/faviconlarger.png' style='position:absolute;right:105px;top:5px;'>
 							<p style='color:white;font-size:16px;text-align:center;'>Now, would you look at that.<br>
 							I feel like I'm back in 2022 with all of this old stuff making<br>
@@ -164,21 +178,27 @@ body {
 
 						<!--Daily Song Recommendation-->
 						<div class='speechbubble' style='top:180px;'>
-							<p style='color:white;margin-top:5px;margin-left:5px;margin-right:5px;font-size:32px;font-family:Andes;'>
-							<img src='images/faviconlarger.png' style='position:absolute;left:42px;top:5px;'>
-							<u><b>today's song recommendation</b></u></p>
+
+							<p class='speechbubbletitletext'>
+							<img src='images/faviconlarger.png' style='position:absolute;left:42px;top:5px;'>today's song recommendation</p>
+
 							<img src='images/faviconlarger.png' style='position:absolute;right:42px;top:5px;'>
 							<p style='color:white;font-size:16px;text-align:center;'>Oh yeah, we also do these. I almost forgot it.<br>
 							Anyways, today's song recommendation is...</p>
-							<a href='https://www.youtube.com/watch?v=vWgq8b5vQEY' target='_blank'>
-							<p style='color:white;text-align:left;font-family:HyperLegibleNext;margin-top:5px;margin-bottom:5px;'>
+							
+							<div class='songcontainer'>
+							<a href='https://youtu.be/aWbFTrmu9NI?si=rC-NgBBHbgwpNFq0' target='_blank'>
+							<p style='text-align:left;margin-top:5px;margin-bottom:5px;width:500px;'>
 							<img src='images/home/AlbumCover.png' class='AlbumCover' style='float:left;'>
-							<b>Pacifier</b>, by <b>Catfish And The Bottlemen</b></a><br>
-							Released In <b>December 1, 2024</b><br>
-							From The Album: <b>None. It's a single.</b><br>
-							Genre: <b>Garage Rock</b><br>
-							Listen Time: <b>3 minutes and 58 seconds.</b></p>
-							<p style='margin-bottom:5px;'>This song is a bit sad, but it's also pretty cute.</p>
+							<b>Trifecta</b>, by <b>Oliver Buckland</b><br>
+							</a>
+							Released In <b>December 1, 2014</b><br>
+							From The Album: <b>THIRTY三十</b><br>
+							Genre: <b>Alternative Indie...?</b><br>
+							Listen Time: <b>7:22 Minutes Listen. Holy shit.</b></p>
+							</div>
+							<p style='margin-bottom:5px;text-align:center;'>Both you and me have a lot to owe to this song.<br>
+							Why? Charlotte Gray. At this point, I owe everything to her tbh.</p>
 				</div>
 						</div>
 				<div class='handlebarsmall'></div>
@@ -198,11 +218,76 @@ body {
 				<div class='handlebarsmall'></div>
 			</div>
 
-			<div class='handlebarsmall' style='margin-top:auto;'></div>
-			</div>
+			<div class='postcontainer' style='margin-bottom:10px;'>
+					<div class='textbubblecontainer'>
+						<div class='textbubbletopcontainer'>
+							<div class='faviconcontainer'><img src='images/faviconlarger.gif' width=32 height=32></div>
+							<p class='titletext'><b>neo-rootpain.com: godspeed lives!</b></p>
+						</div>
+						<div style='display:flex;flex-direction:row;'>
+						<img src='images/PFPs/PFP01.png' class='PFP'>
+						<p class='texttop'>
+						<b style='font-size:30px;font-family:andes;'>sent by: <span style='color:orange;'>june santos</span>, august 19, 2025, 06:25:30.</b><br>
+						Hey there! Did ya miss me? Likely not. But you most likely missed me updating the website!<br>
+						Well, don't you worry, I, June Santos, also known as NeoRootPain, is BRINGING IT BACK!<br>
+						That's right, babey! 50 Shades Of RootPain.com! RootPain Lives! RootPain Forever!<br>
+						Neo-RootPain.com: Godspeed is the newest, the successor to JuneSSai.net, and likely the<br>
+						final iteration of RootPain.com! Took me a while (and a lot of hardship) to get here, but it is here!</p>
+						</div>
+						<div style='display:flex;flex-direction:column;'>
+						<p class='textbottom' style='margin-top:5px;'>
+						I already wrote a HUGE blog post on the Devlog Section, so I won't talk a ton in here, because if you're interested in learning<br>
+						about what led me to remaking the website, and why it took so long, all of your answers are likely there.</p>
+						<div class='imagecontainer'>	
+						<a href='blog/pages/ThePhilosophyOfTheWebsite.html'><img src='blog/images/thephilosophyofthewebsitebutton.png'></a>
+						</div>
+						<p class='textbottom'>
+						All I can say is; I'm very happy that we've finally crossed that line, and that I've finally got here.<br>
+						And like I already said multiple times through the entirety of the website; I hope you enjoy Neo-RootPain.com: Godspeed<br>
+						just as much as I enjoyed making it, and I hope by the end of it, you'll be saying to yourself "I want more of this"<br>
+						Or maybe even go "I want to do something like this in the future myself!", and if I get that, then it was all worth it.<br>
+						<br>
+						And once again, I have to thank ICantSeeHelp (A.K.A Tom Boye) for making this whole thing possible<br>
+						I've already said that countless times, and I know for a fact you're reading this, and you know how much I've told you<br>
+						this directly, but without you, none of this would be a possibility. I'm very happy I met you. Thank you.<br>
+						<br>
+						Let Neo-RootPain.Com: Godspeed be my way to showing how grateful I am.<br>
+						<br>
+						Either way, time for me to think what else to add next, but don't you worry, this time you won't have to wait another<br>
+						year between each update. God. I hope not. Wait. Did I just jinx it? no no NO FUCK<br>
+						<br>
+						I gotta get out of here before it gets any worse!<br>
+						<br>
+						The Struggle Is Over<br>
+						Peace out, suckers; it's been real. Godspeed.</p>
+
+						<p class='textsignature'>
+						<u>rootpain lives!</u><br>
+						june santos (a.k.a neorootpain)</p>
+						<div class='handlebarsmall' style='margin-bottom:-1px;'></div>
+						</div>
+
 
 			</div>
-			
+			</div>
+
+			<script>
+					document.querySelectorAll('.imagecontainer, .AlbumCover').forEach(btn => {
+  btn.addEventListener('mouseover', () => {
+    let sound = new Audio('sounds/buttonhover.ogg');
+    sound.play();
+  });
+});
+
+document.querySelectorAll('.imagecontainer, .AlbumCover').forEach(btn => {
+  btn.addEventListener('mousedown', () => {
+    let sound = new Audio('sounds/buttonselect.ogg');
+    sound.play();
+  });
+});
+			</script>
+
+			<div class='handlebarsmall' style='margin-top:auto;'></div>
 			<!--END OF NEWS AND UPDATES-->
 
 			<!--I know you're reading this, Tom Boye. Do you really have "Boye" as your surrname? I guess if you were a girl, it would be Tom "Girle", haha. ... Sorry.-->
