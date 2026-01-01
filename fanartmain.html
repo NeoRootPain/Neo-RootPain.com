@@ -39,7 +39,7 @@ body {
 	height: 150px;
 }
 
-.miami {
+.umami {
 	display: flex;
 	position: absolute; left: 128px; top: 12px;
 	background-color: #55401e;
@@ -49,11 +49,11 @@ body {
 	border-radius: 50%;
 }
 
-.miami:hover {
+.umami:hover {
 	background-color: #0056ff;
 }
 
-.miami:active {
+.umami:active {
 	background-color: white;
 }
 
@@ -65,7 +65,7 @@ body {
 <link rel='stylesheet' href='style.css'>
 <link rel='icon' href='images/favicon.gif'>
 
-<script async src='js/headerfanart.js'></script>
+<script async src='js/headerlogosolo.js'></script>
 <script async src='js/menupink.js'></script>
 </head>
 <body>
@@ -104,9 +104,11 @@ body {
 				<div class='handlebarsmall' style='background-image:url(images/handlebars/handlebarsmallgreen.png);'></div>
 				</div>
 
+				<!--ICantSeeHelp-->
+
 				<div class='artistcontainer'>
 				
-				<a href='secrets/pages/BlueVelvet.html'><div class='miami'></div></a>
+				<a href='secrets/pages/BlueVelvet.html'><div class='umami'></div></a>
 				<img src='fanart/images/icantseehelpheader.gif'>
 				<div class='handlebarsmall' style='background-image:url(images/handlebars/handlebarsmallgreen.png);'></div>
 				</div>
@@ -114,6 +116,23 @@ body {
 				<div class='thumbnailinnercontainer'>
 					<a href='fanart/pages/ICantSeeHelp/TheBigPretty.html'>
 						<img src='fanart/images/thumbs/ICantSeeHelp/TheBigPrettyThumb.png' class='thumb bigbutton'></a>
+				</div>
+				</div>
+
+				<div class='handlebarsmall' style='margin-top:auto;background-image:url(images/handlebars/handlebarsmallgreen.png);'></div>
+				</div>
+
+			<!--LeHatt-->
+
+				<div class='artistcontainer'>
+				
+				<img src='fanart/images/lehattheader.gif'>
+				<div class='handlebarsmall' style='background-image:url(images/handlebars/handlebarsmallgreen.png);'></div>
+				</div>
+				<div class='thumbnailcontainer'>
+				<div class='thumbnailinnercontainer'>
+					<a href='fanart/pages/LeHatt/TheBigBomber.html'>
+						<img src='fanart/images/thumbs/LeHatt/TheBigBomberThumb.png' class='thumb bigbutton'></a>
 				</div>
 				</div>
 
@@ -139,14 +158,14 @@ document.querySelectorAll('.bigbutton').forEach(btn => {
 				</script>
 
 				<script>
-					document.querySelectorAll('.miami').forEach(btn => {
+					document.querySelectorAll('.umami').forEach(btn => {
   btn.addEventListener('mouseover', () => {
     let sound = new Audio('./sounds/nmh2pianoin.ogg');
     sound.play();
   });
 });
 
-document.querySelectorAll('.miami').forEach(btn => {
+document.querySelectorAll('.umami').forEach(btn => {
   btn.addEventListener('mousedown', () => {
     let sound = new Audio('./sounds/nmh2pianoout.ogg');
     sound.play();

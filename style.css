@@ -36,17 +36,17 @@ h1 {
 }
 
 a, a:link, a:visited {
-	 color: lime !important;
+	 color: lime;
 	 text-decoration: none;
 }
 
 a:hover, a:hover {
-	 color: orange !important;
+	 color: orange;
 	 text-decoration: none;
 }
 
 a:active, a:active {
-	 color: orange !important;
+	 color: orange;
 	 text-decoration: underline;
 }
 
@@ -178,7 +178,7 @@ body, html {
 
 .postcontainer {
 	display: flex;
-	flex-flow: row wrap;
+	flex-flow: column wrap;
 	align-items: center;
 	justify-content: center;
 	margin-top: 10px;
@@ -223,14 +223,13 @@ body, html {
 	margin-left: 5px;
 }
 
-.texttop {
+.text {
 	margin-top: 10px;
-	margin-left: 5px;
+	justify-content: center;
+	align-self: center;
+	width: 98%;
 }
 
-.textbottom {
-	margin-left: 10px;
-}
 .textsignature {
 	position: relative; right: 10px;
 	font-family: Andes; font-size: 32px; color: white; text-align: right;
@@ -241,11 +240,10 @@ body, html {
 
 .PFP {
 	display: flex;
-	width: 125px;
-	height: 125px;
-	margin-top: 10px;
-	margin-left: 10px;
+	float: left;
 	outline: solid black 1px;
+	margin-top: -2px;
+	margin-right: 5px;
 }
 
 .AlbumCover {
@@ -315,10 +313,30 @@ body, html {
 	box-shadow: 0 0 5px white;
 }
 
-.buttoncontainer:active .button {
+.buttoncontainer:active {
 	filter: brightness(125%);
 	outline: solid white 1px;
 	box-shadow: 0 0 10px white;
+}
+
+.stamp {
+	transition: 0.2s;
+}
+
+.stamp:hover {
+	transform: translateY(-5px);
+}
+
+.stamp:active {
+	filter: brightness(125%);
+}
+
+.stampscontainer {
+	display: flex;
+	flex-flow:row wrap;
+	align-items: center;
+	justify-content:center;
+	gap:2px;margin-top:2px;margin-bottom:2px;
 }
 
 /* Button Slide Stuff */

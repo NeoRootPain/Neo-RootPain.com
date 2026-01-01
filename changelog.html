@@ -20,13 +20,26 @@ body {
 	display: flex;
 	flex-flow: column wrap;
 	text-align: center;
-	justify-content: center; align-items: center;
+	justify-content: center; gap: 10px;
 }
 
 .changelogtextcontainer {
 	display: flex; flex-flow: column wrap;
 	justify-content: center; align-items: center;
-	margin-top: 10px; margin-bottom: 10px;
+}
+
+.ANewDisease, a:link, a:visited {
+	color: white !important;
+}
+
+.ANewDisease:hover, a:hover {
+	color: lime !important;
+	text-decoration: none;
+}
+
+.ANewDiseae:active, a:active {
+	color: orange !important;
+	text-decoration: underline;
 }
 
 </style>
@@ -38,7 +51,7 @@ body {
 <link rel='icon' href='images/favicon.gif'>
 
 <script async src='js/headerchangelog.js'></script>
-<script async src='js/menugreen.js'></script>
+<script async src='js/menured.js'></script>
 </head>
 <body>
 	<video autoplay muted loop plays-inline id='backgroundvideo'>
@@ -54,7 +67,7 @@ body {
 			</div>
 		</div>
 		<div class='mainbodywrapper'>
-		<div class='menucontainer' id='menucontainer'></div>
+		<div class='menucontainer' id='menucontainer' style='background-color:rgba(84, 0, 17, 0.7);'></div>
 		<div class='contentwrapper'>
 
 			<audio hidden autoplay loop>
@@ -68,57 +81,66 @@ body {
 			<div class='handlebarsmall'></div>
 			<div>
 
+			<!--2026-->
+
+			<div class='changelogmaincontainer'>
+				<div class='changeloginnercontainer'>
+
+				<div class='titleheadercontainer'>
+					<img src='changelog/images/2026header.png'>
+					<div class='handlebarsmall'></div>
+				</div>
+
+			<div class='changelogtextcontainer'>
+				<h1>January 1, 2026</h1>
+				<p style='text-align:center;'>Neo-RootPain.com: Godspeed finally went live. To plague the world, to become <span class='ANewDisease'><a href="https://www.youtube.com/watch?v=LgYO1k9Iyvk" target='_blank'>A New Disease</a></span>, once again.<br>
+			</div>
+
+
 			<!--2025-->
 
 			<div class='changelogmaincontainer'>
+				<div class='changeloginnercontainer'>
+
 				<div class='titleheadercontainer'>
+					<div class='handlebarsmall'></div>
 					<img src='changelog/images/2025header.png'>
 					<div class='handlebarsmall'></div>
 				</div>
-					
-				<div class='changeloginnercontainer'>
-			
+
 			<div class='changelogtextcontainer'>
-				<h1>August, 2025</h1>
-				<p style='text-align:center;'>Neo-RootPain.com: Godspeed was finally finished, and released to the public.</p>
+				<h1>August 30, 2025</h1>
+				<p style='text-align:center;'>Neo-RootPain.com: Godspeed was finally finished, at least the redesign and the most important sections were.<br>
+				The code for this section is an actual mess, and I'll have to redo this whole thing all over again once I'm done with the rest of the website.</p>
 			</div>
 
-		<div class='handlebarsmall' style='margin-top:auto;'></div>
-				</div>
 
 			<!--2023-->
 
 				<div class='titleheadercontainer'>
+					<div class='handlebarsmall'></div>
 					<img src='changelog/images/2023header.png'>
 					<div class='handlebarsmall'></div>
 				</div>
-					
-				<div class='changeloginnercontainer'>
-			
+	
 			<div class='changelogtextcontainer'>
 				<h1>March, 2023</h1>
 				<p style='text-align:center;'>RootPain.com was launched. The website launched with a ton of missing and unfinished sections over me not wanting<br>
 				to delay the website launch any further so I could keep interest alive while I slowly added the remaining sections.</p>
 			</div>
 
-		<div class='handlebarsmall' style='margin-top:auto;'></div>
-				</div>
-
 
 			<!--2022-->
 
 				<div class='titleheadercontainer'>
+					<div class='handlebarsmall'></div>
 					<img src='changelog/images/2022header.png'>
 					<div class='handlebarsmall'></div>
 				</div>
 					
-				<div class='changeloginnercontainer'>
-			
 				<div class='changelogtextcontainer'>
 				<h1>July 30, 2022</h1>
 				<p style='text-align:center;'>The JuneSSai.net domain was bought.</p>
-			</div>
-
 
 			<div class='changelogtextcontainer'>
 				<h1>march 26, 2022</h1>
@@ -136,6 +158,7 @@ body {
 				</div>
 		
 	
+				</div>
 				</div>
 
 			<!--SHE CALLED ME CUTE I CANT FUCKING BELIEVE IT HOLY SHIIITTTT SKDASIDJSAKDASJDASD-->
