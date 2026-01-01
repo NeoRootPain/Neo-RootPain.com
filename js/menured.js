@@ -4,7 +4,7 @@ let MenuContent = `
 
 <div class='navigationcontainer' style='margin-top:10px;'>
 
-<img src='https://github.com/NeoRootPain/Neo-RootPain.com/blob/main/images/menus/navigationbargreen.png?raw=true'>
+<img src='https://github.com/NeoRootPain/Neo-RootPain.com/blob/main/images/menus/navigationbarred.png?raw=true'>
 
 <a href='https://rootpain.com/index.html'>
 <div class='buttoncontainer'>
@@ -54,14 +54,14 @@ let MenuContent = `
 </div>
 </a>
 
-<img src='https://github.com/NeoRootPain/Neo-RootPain.com/blob/main/images/menus/menuhandlebargreen.png?raw=true'>
+<img src='https://github.com/NeoRootPain/Neo-RootPain.com/blob/main/images/menus/menuhandlebarred.png?raw=true'>
 </div>
 
 <!--Partners-->
 
 <div class='navigationcontainer'>
 
-<img src='https://github.com/NeoRootPain/Neo-RootPain.com/blob/main/images/menus/partnersbargreen.png?raw=true.png'>
+<img src='https://github.com/NeoRootPain/Neo-RootPain.com/blob/main/images/menus/partnersbaryellow.png?raw=true.png'>
 
 <a href='https://kaiakairos.net/'>
 <div class='buttoncontainer'>
@@ -95,14 +95,14 @@ let MenuContent = `
 </div>
 </a>
 
-<img src='https://github.com/NeoRootPain/Neo-RootPain.com/blob/main/images/menus/menuhandlebargreen.png?raw=true'>
+<img src='https://github.com/NeoRootPain/Neo-RootPain.com/blob/main/images/menus/menuhandlebarred.png?raw=true'>
 </div>
 
 <!--Stamps-->
 
 <div class='navigationcontainer'>
 
-<img src='https://github.com/NeoRootPain/Neo-RootPain.com/blob/main/images/menus/stampsbargreen.png?raw=true.png'>
+<img src='https://github.com/NeoRootPain/Neo-RootPain.com/blob/main/images/menus/stampsbarred.png?raw=true.png'>
 
 <div class='stampscontainer'>
 <a href='https://icantseehelp.neocities.org/'>
@@ -138,7 +138,7 @@ let MenuContent = `
 </a>
 </div>
 
-<img src='https://github.com/NeoRootPain/Neo-RootPain.com/blob/main/images/menus/menuhandlebargreen.png?raw=true'>
+<img src='https://github.com/NeoRootPain/Neo-RootPain.com/blob/main/images/menus/menuhandlebarred.png?raw=true'>
 </div>
 `;
 
