@@ -106,35 +106,35 @@ let MenuContent = `
 
 <div class='stampscontainer'>
 <a href='https://icantseehelp.neocities.org/'>
-<img src='./images/stamps/CharlotteStamp2.gif' class='stamp'>
+<img src='https://github.com/NeoRootPain/Neo-RootPain.com/blob/main/images/stamps/CharlotteStamp2.gif?raw=true' class='stamp'>
 </a>
 
 <a href='https://icantseehelp.neocities.org/'>
-<img src='./images/stamps/CharlotteStamp3.gif' class='stamp'>
+<img src='https://github.com/NeoRootPain/Neo-RootPain.com/blob/main/images/stamps/CharlotteStamp3.gif?raw=true' class='stamp'>
 </a>
 
 <a href='https://www.youtube.com/watch?v=QPgkkMG9oq0' target='_blank'>
-<img src='./images/stamps/parappa.webp' class='stamp'>
+<img src='https://github.com/NeoRootPain/Neo-RootPain.com/blob/main/images/stamps/parappa.webp?raw=true' class='stamp'>
 </a>
 
 <a href='https://www.youtube.com/watch?v=YiHEWozeAb8' target='_blank'>
-<img src='./images/stamps/lbp2.png' class='stamp'>
+<img src='https://github.com/NeoRootPain/Neo-RootPain.com/blob/main/images/stamps/lbp2.png?raw=true' class='stamp'>
 </a>
 
 <a href='https://www.youtube.com/watch?v=eBD_6l_KL9k' target='_blank'>
-<img src='./images/stamps/postal2stamp.png' class='stamp'>
+<img src='https://github.com/NeoRootPain/Neo-RootPain.com/blob/main/images/stamps/house.gif?raw=true' class='stamp'>
 </a>
 
 <a href='https://www.youtube.com/watch?v=JUv5n7M82mM' target='_blank'>
-<img src='./images/stamps/house.gif' class='stamp'>
+<img src='https://github.com/NeoRootPain/Neo-RootPain.com/blob/main/images/stamps/house.gif?raw=true' class='stamp'>
 </a>
 
 <a href='https://www.youtube.com/watch?v=JLswtnD54l8' target='_blank'>
-<img src='./images/stamps/marie.gif' class='stamp'>
+<img src='https://github.com/NeoRootPain/Neo-RootPain.com/blob/main/images/stamps/marie.gif?raw=true' class='stamp'>
 </a>
 
 <a href='https://www.youtube.com/watch?v=JLswtnD54l8' target='_blank'>
-<img src='./images/stamps/callie.gif' class='stamp'>
+<img src='https://github.com/NeoRootPain/Neo-RootPain.com/blob/main/images/stamps/callie.gif?raw=true' class='stamp'>
 </a>
 </div>
 
