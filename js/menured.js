@@ -122,7 +122,7 @@ let MenuContent = `
 </a>
 
 <a href='https://www.youtube.com/watch?v=eBD_6l_KL9k' target='_blank'>
-<img src='https://github.com/NeoRootPain/Neo-RootPain.com/blob/main/images/stamps/house.gif?raw=true' class='stamp'>
+<img src='https://github.com/NeoRootPain/Neo-RootPain.com/blob/main/images/stamps/postal2stamp.png?raw=true' class='stamp'>
 </a>
 
 <a href='https://www.youtube.com/watch?v=JUv5n7M82mM' target='_blank'>
