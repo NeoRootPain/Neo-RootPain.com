@@ -146,14 +146,14 @@ document.querySelector('#menucontainer').insertAdjacentHTML('beforeend', MenuCon
 
 document.querySelectorAll('.buttoncontainer, .stamp').forEach(btn => {
   btn.addEventListener('mouseover', () => {
-    let sound = new Audio('./sounds/buttonhover.ogg');
+    let sound = new Audio('https://github.com/NeoRootPain/Neo-RootPain.com/blob/main/sounds/buttonhover.ogg?raw=true');
     sound.play();
   });
 });
 
 document.querySelectorAll('.buttoncontainer, .stamp').forEach(btn => {
   btn.addEventListener('mousedown', () => {
-    let sound = new Audio('./sounds/buttonselect.ogg');
+    let sound = new Audio('https://github.com/NeoRootPain/Neo-RootPain.com/blob/main/sounds/buttonselect.ogg?raw=true');
     sound.play();
   });
 });
