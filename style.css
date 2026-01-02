@@ -251,7 +251,8 @@ body, html {
 	width: 125px;
 	height: 125px;
 	margin-left: 10px;
-	margin-right: 10px;
+	margin-right: 5px;
+	margin-bottom: 5px;
 	outline: solid black 1px;
 	transition: 0.2s;
 }
