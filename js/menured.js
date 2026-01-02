@@ -61,7 +61,7 @@ let MenuContent = `
 
 <div class='navigationcontainer'>
 
-<img src='https://github.com/NeoRootPain/Neo-RootPain.com/blob/main/images/menus/partnersbaryellow.png?raw=true.png'>
+<img src='https://github.com/NeoRootPain/Neo-RootPain.com/blob/main/images/menus/partnersbarred.png?raw=true.png'>
 
 <a href='https://kaiakairos.net/'>
 <div class='buttoncontainer'>
