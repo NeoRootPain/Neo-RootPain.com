@@ -137,7 +137,7 @@ let MenuContent = `
 <img src='https://github.com/NeoRootPain/Neo-RootPain.com/blob/main/images/stamps/callie.gif?raw=true' class='stamp'>
 </a>
 
-<a href='./secrets/videos/sonicmasturbating.mp4' target='_blank'>
+<a href='https://rootpain.com/secrets/videos/sonicmasturbating.mp4' target='_blank'>
 <img src='https://github.com/NeoRootPain/Neo-RootPain.com/blob/main/images/stamps/ihatenudesonicstamp.gif?raw=true' class='stamp'>
 </a>
 

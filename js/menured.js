@@ -136,6 +136,14 @@ let MenuContent = `
 <a href='https://www.youtube.com/watch?v=JLswtnD54l8' target='_blank'>
 <img src='https://github.com/NeoRootPain/Neo-RootPain.com/blob/main/images/stamps/callie.gif?raw=true' class='stamp'>
 </a>
+
+<a href='https://rootpain.com/secrets/videos/sonicmasturbating.mp4' target='_blank'>
+<img src='https://github.com/NeoRootPain/Neo-RootPain.com/blob/main/images/stamps/ihatenudesonicstamp.gif?raw=true' class='stamp'>
+</a>
+
+<a href='https://www.youtube.com/watch?v=XZp6zxh2yjE' target='_blank'>
+<img src='https://github.com/NeoRootPain/Neo-RootPain.com/blob/main/images/stamps/tonybug.gif?raw=true' class='stamp'>
+</a>
 </div>
 
 <img src='https://github.com/NeoRootPain/Neo-RootPain.com/blob/main/images/menus/menuhandlebarred.png?raw=true'>

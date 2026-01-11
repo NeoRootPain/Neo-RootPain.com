@@ -1,7 +1,7 @@
 let HeaderContent = `
 
 <a href='https://neorootpain.github.io/RootPain.com/'>
-<img src="https://github.com/NeoRootPain/Neo-RootPain.com/blob/main/images/logos/homepagelogo.png?raw=true" class="logo" style='left:25px;bottom:0px;top:0px;'></a>
+<img src="https://github.com/NeoRootPain/Neo-RootPain.com/blob/main/images/logos/logogreen.webp?raw=true" class="logo" style='left:25px;bottom:0px;top:0px;'></a>
 
 <img src="https://github.com/NeoRootPain/Neo-RootPain.com/blob/main/images/logos/bigwhiskeyhome.gif?raw=true" style="position:absolute;right:0px;">
 
