@@ -4,278 +4,34 @@
 <style>
 
 body {
-	background-image: url('images/backgrounds/homebackground.png');
 	background-size: auto;
 	background-position: top;
 	background-repeat: no-repeat;
 	background-color: black;
-}
-
-.welcomecontainer {
-	display: flex;
-	flex-flow: column wrap;
-}
-
-.welcomeinnercontainer {
-	display: flex;
-	height: 285px;
-	flex-flow: column wrap;
-	justify-content: center;
-	background-image: url('images/home/welcomebackground.png');
-}
-
-.dailymessagecontainer {
-	display: flex;
-	position: relative;
-	flex-flow: column wrap;
-	align-items: center;
-}
-
-.dailymessageinnercontainer {
-	display: flex;
-	position: relative;
-	flex-flow: row wrap;
-	width: 100%;
-	height: auto;
-	background-image: url('images/backgrounds/dailymessagebackground.png');
-}
-
-.dailymessagechar {
-	margin-top: auto;
-	margin-right: auto;
-}
-
-.newsandupdatescontainer {
-	display: flex;
-	flex-flow: row wrap;
-	align-items: center;
-	justify-content: center;
-}
-
-.speechbubblecontainer {
-	display: flex;
-	position: absolute; right: 10px; top: 10px;
-	justify-content: center;
-	align-items: center;
-	flex-flow: column wrap;
-	gap: 10px;
-}
-
-.speechbubble {
-	display: flex;
-	flex-flow: column wrap;
-	position: relative; right: 10px;
-	width: 550px;
-	background-color: #1f1f1f;
-	outline: solid black 1px;
-	text-align: center;
-	justify-content: center;
-	align-items: center;
-}
-
-.speechbubbletitletext {
-	margin-top: 10px; margin-left: 5px; margin-right: 5px;
-	font-size: 32px;
-	font-family: Andes;
-	text-decoration: underline;
-	font-weight: bold;
-}
-
-.songcontainer {
-	display: flex;
-	flex-flow: row wrap;
-	width: 100%;
-}
-
 </style>
 <meta property="og:title" content="Neo-RootPain.com: Godspeed" />
-<meta property="og:image" content="https://github.com/NeoRootPain/Neo-RootPain.com/blob/main/images/logos/logogreen.webp?raw=true" />
-<meta property="og:description" content="After so long, it's finally here." />
+<meta property="og:image" content="https://github.com/NeoRootPain/Neo-RootPain.com/blob/main/images/logos/logowhite.webp?raw=true" />
+<meta property="og:description" content="Godspeed." />
 <title>Neo-RootPain.com: Godspeed</title>
 <link rel='stylesheet' href='style.css'>
 <link rel='icon' href='images/favicon.gif'>
 
-<script async src='js/headerhome.js'></script>
-<script async src='js/menugreen.js'></script>
 </head>
 <body>
-	<video autoplay muted loop plays-inline id='backgroundvideo'>
-			<source src='images/backgrounds/homebackground.mp4'>
-		</video>
+	<div style='display:flex;justify-content:center;margin:auto;'>
 
-	<div class='mainbody'>	
-		<div class='headercontainer' id='headercontainer'>
-			<div class='headerinnercontainer' style='outline:solid black 1px;width:1230px;height:250px;background-image:url(images/backgrounds/homeheaderbackground.png);'>
-			<video autoplay muted loop id='headervideo'>
-				<source src='images/backgrounds/homeheaderbackground.mp4'>
-			</video>
-			</div>
-		</div>
-		<div class='mainbodywrapper'>
-		<div class='menucontainer' id='menucontainer'></div>
-		<div class='contentwrapper'>
+		<audio hidden autoplay loop>
+			<source src='sounds/startover.ogg' type='audio/ogg'></audio>
 
+	<div style='display:flex;flex-direction:column;position:absolute;top:50%;bottom:50%;margin;auto;align-items:center;justify-content:center;'>
+		<img src='images/logos/logowhite.webp'>
+		<p style='text-align:center;font-family:Andes;font-weight:bold;font-size:32px;margin-top:15px;'> peace out, suckers; it's been real.<br>
+		<br>
+		Godspeed.</p>
+	</div>
+	
+	</div>
 
-
-
-
-
-			<!--WELCOME HEADER-->
-		
-			<div class='welcomecontainer'>
-			<div class='handlebarsmall'></div>
-			<img src='images/home/welcomeheader.png'>
-			<div class='handlebarsmall'></div>
-			<div class='welcomeinnercontainer'>
-				<p style='text-align:left;margin-left:5px;'><span style='font-family:andes;font-size:28px;'><u>"he died alone in the field one summer morning... six weeks later, a sunflower grew out of his eye."</u></span><br>
-				Welcome to Neo-RootPain.com: Godspeed! This website is a tribute to all sort of things!<br>
-				my love for the early 2000's internet My spite for the modern internet, a love letter to my friends and all sort of things I love...<br>
-				But most importantly; a labor of love and passion for everything June! (ME!!!)<br>
-				<br>
-				If one day in the future, I make you think about this website again, and make you go:<br>
-				"I want more, and I want to make something as cool as this one day..."<br>
-				Then that means all of this and everything that led up to this was worth it.<br>
-				<br>
-				I hope you enjoy scrolling through my website just as much as I enjoyed making it!<br>
-				Have fun! And remember to sign the guestbook!<br>
-				<br>
-				<i><b>You either love the <span style="color:lime;">Root</span>, or you hate the <span style="color:red;">Pain</span>, no in-between.</b></i></p>
-
-				
-			</div>
-			<div class='handlebarsmall'></div>
-			</div>
-			
-			<!--END OF WELCOME HEADER-->
-
-
-
-
-
-
-			<!--DAILY MESSAGE-->
-
-			<div class='dailymessagecontainer'>
-				<img src='images/home/dailymessageheader.png'>
-				<div class='handlebarsmall'></div>
-				<div class='dailymessageinnercontainer'>
-						<img src='images/home/dailymessagecharacter.png' class='dailymessagechar'>
-						
-						<!--Daily Message-->
-						<div class='speechbubblecontainer'>
-						<div class='speechbubble'>
-
-							<p class='speechbubbletitletext'>
-							<img src='images/faviconlarger.gif' style='position:absolute;left:105px;top:10px;'>today's daily message</p>
-
-							<img src='images/faviconlarger.gif' style='position:absolute;right:105px;top:10px;'>
-							<p style='color:white;font-size:16px;text-align:center;margin-top:5px;margin-bottom:5px;'>
-							Hey, it's been a while...<br>
-							Yeah, no. That's it.<br>
-							<br>
-							Working hard my ass. I've been slacking too much.<br>
-							But yeah, I'm back. Somewhat. Let's see how long this lasts.<br>
-						</div>
-
-						<!--Daily Song Recommendation-->
-						<div class='speechbubble'>
-
-							<p class='speechbubbletitletext'>
-							<img src='images/faviconlarger.gif' style='position:absolute;left:42px;top:10px;'>today's song recommendation</p>
-
-							<img src='images/faviconlarger.gif' style='position:absolute;right:42px;top:10px;'>
-							<p style='color:white;font-size:16px;text-align:center;margin-top:5px;'>
-							One of my old favorites.</p>
-							
-							<div class='songcontainer'>
-							<p style='text-align:left;margin-top:5px;margin-bottom:5px;width:500px;'>
-							Song name:<span><a href='https://youtu.be/2Du4g0NLhQE?si=UdIvLq5Q_GRll6DV' target='_blank'>
-							<img src='images/home/AlbumCover.png' class='AlbumCover' style='float:left;'>
-							<b>One More Summer</b></span></a><br>
-							Band/Artist: <b>Anamanaguchi</b><br>
-							</a>
-							Released In: <b>March 3, 2026</b><br>
-							Album: <b>Scott Pilgrim EX Official Soundtrack</b><br>
-							Genre: <b>Chiptune/Rock</b><br>
-							Track Length: <b>2:51 Minutes.</b></p>
-							</div>
-				</div>
-						</div>
-				<div class='handlebarsmall'></div>
-			</div>
-			
-			<!--END OF DAILY MESSAGE-->
-
-
-
-
-
-
-			<!--NEWS AND UPDATES-->
-
-			<div class='newsandupdatescontainer'>
-				<img src='images/home/newsandupdatesheader.png'>
-				<div class='handlebarsmall'></div>
-			</div>
-
-			<div class='postcontainer' style='margin-bottom:10px;'>
-					<div class='textbubblecontainer'>
-						<div class='textbubbletopcontainer'>
-							<div class='faviconcontainer'><img src='images/faviconlarger.gif' width=32 height=32></div>
-							<p class='titletext'><b>new update, and new section?! what?!</b></p>
-						</div>
-						<p class='text'>
-						<img src='images/PFPs/PFP02.png' class='PFP'>
-						<b style='font-size:30px;font-family:andes;'>sent by: <span style='color:orange;'>neo-rootpain</span>, january 5, 2026, 18:50:00.</b><br>
-						That's right, fool! There's a whole new update for the website that's not just another Daily Message change!<br>
-						This one's an idea for something I actually planned a little bit before I abandoned the original RootPain.com<br>
-						which is the <a href='homepagearchivemain.html'>Home Page Archive!</a> The Home Page Archive is actually pretty simple. Every post<br>
-						or announcement that I make on this page will be archived on that section so it's not lost forever in case<br>
-						I ever update the front page again, or simply just make a new announcement, so it doesn't become...<br>
-						*gulp* <b>LOST MEDIA...</b> Anyways. That's pretty much the crux of it.<br>
-						<br>
-						Yeah, I know, pretty uneventful and unexciting, but I do want to bring not only more stuff from the older versions/iterations<br>
-						of the website back, but I also want to expand and refine them, and bring new original stuff to it aswell!<br>
-						<br>
-						But as usual, everything's been awful lately, and if anything, it only got worse as of late, and I'm pretty much<br>
-						on a daily fight against myself, with every second of the day feeling like a random QTE where I must quickly<br>
-						press the right button so I don't fucking kill myself. It's been hard, but I've repeated myself a thousand times<br>
-						and no one wants to listen to this anymore. Neither do I, but I gotta live with it, unfortunately for me.<br>
-						<br>
-						Anyways, I'll see you all soon. I hope.<br>
-						Godspeed.</p>
-
-						<p class='textsignature'>
-						<u>surviving. barely.</u><br>
-						june santos (a.k.a neorootpain)</p>
-						<div class='handlebarsmall' style='margin-bottom:-1px;'></div>
-					</div>
-			</div>
-
-
-			<script>
-					document.querySelectorAll('.imagecontainer, .AlbumCover').forEach(btn => {
-  btn.addEventListener('mouseover', () => {
-    let sound = new Audio('sounds/buttonhover.ogg');
-    sound.play();
-  });
-});
-
-document.querySelectorAll('.imagecontainer, .AlbumCover').forEach(btn => {
-  btn.addEventListener('mousedown', () => {
-    let sound = new Audio('sounds/buttonselect.ogg');
-    sound.play();
-  });
-});
-			</script>
-
-			<div class='handlebarsmall' style='margin-top:auto;'></div>
-			<!--END OF NEWS AND UPDATES-->
-
-			<!--I know you're reading this, Tom Boye. Do you really have "Boye" as your surrname? I guess if you were a girl, it would be Tom "Girle", haha. ... Sorry.-->
-
-
-		</div>
-		</div>
+		<!--The Sum Of Everything.-->
 </body>
 </html>
