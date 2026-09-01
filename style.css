@@ -20,6 +20,11 @@
 	src: url('fonts/AtkinsonHyperlegibleNext-Light.ttf') format('truetype');
 }
 
+@font-face {
+	font-family: 'URWGothic';
+	src: url('fonts/URWGothic-Book.ttf') format('truetype');
+}
+
 p {
 	font-family: HyperLegibleNext;
 	text-align: left;
